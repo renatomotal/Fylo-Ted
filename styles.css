@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+
+* {
+}
+
+section {
+  padding: 30px 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
+}
+
+.header2 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  margin: 0 auto;
+}
+
+.h_1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: hsl(243, 87%, 12%);
+  max-width: 800px;
+}
+
+.p_1 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+p {
+  line-height: 1.5;
+  color: hsl(243, 87%, 12%);
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  max-width: 800px;
+  font-size: 1.5rem;
+}
+.inpt_1 {
+  border: 1px solid;
+  border-radius: 3px;
+  height: 45px;
+  width: 420px;
+  padding: 0 10px;
+}
+
+.see {
+  margin-top: 10px;
+  display: flex;
+  color: hsl(170, 45%, 43%);
+  align-items: center;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.see img {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.btn {
+  background-color: hsl(224, 93%, 58%);
+  font-family: "Raleway";
+  color: white;
+  height: 45px;
+  width: 200px;
+  border-radius: 3px;
+  font-weight: 500;
+  margin-left: 10px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  background-color: hsl(224, 79%, 29%);
+}
+
+.sec_1 {
+  display: flex;
+  align-items: center;
+  background-image: urL("./images/illustration-1.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 65rem;
+  height: 800px;
+}
+
+.sec_2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: urL("./images/illustration-2.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 65rem;
+  height: 1000px;
+  background-color: #f9f8fe;
+}
+
+.sec_3 {
+  display: flex;
+  align-items: center;
+  background-color: #575988;
+}
+
+.sec_4 {
+  background-color: #07043b;
+}
+
+.aspas {
+  background-color: white;
+  width: 550px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  margin-top: 60px;
+}
+
+.aspas img {
+  margin-bottom: 20px;
+  width: 20px;
+}
+
+.textinho {
+  font-size: 20px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.profile div {
+  margin-left: 10px;
+}
+
+.profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.get {
+  color: white;
+}
+
+.get_start {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
